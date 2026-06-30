@@ -54,10 +54,16 @@
     <h2>Contact Us</h2>
     <p>Have a question, custom request, or need help with an order? Send us a message and we’ll get back to you as soon as possible.</p>
 
-    <form>
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea rows="5" placeholder="Your Message"></textarea>
+    <form action="https://formsubmit.co/harryprior@btinternet.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+      <!-- FormSubmit options -->
+      <input type="hidden" name="_subject" value="New message from Shimmer Bracelets">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://yourwebsite.com/thankyou.html">
+
       <button type="submit">Send Message</button>
     </form>
   </section>
