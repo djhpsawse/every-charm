@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Shimmer Bracelets - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fdf6f9;
+      color: #333;
+    }
+
+    header {
+      background: #ff7aa2;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      padding: 60px 40px;
+      text-align: center;
+      background: linear-gradient(135deg, #ffe0ec, #fff);
+    }
+
+    .hero h2 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    .hero button {
+      background: #ff7aa2;
+      border: none;
+      color: #fff;
+      padding: 12px 24px;
+      font-size: 1rem;
+      border-radius: 25px;
+      cursor: pointer;
+    }
+
+    .hero button:hover {
+      background: #ff5c8d;
+    }
+
+    .products {
+      padding: 40px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .product-card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .product-card h3 {
+      margin: 10px 0;
+    }
+
+    .product-card p {
+      margin: 5px 0;
+      font-size: 0.95rem;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #ff7aa2;
+      margin-top: 8px;
+    }
+
+    .product-card button {
+      margin-top: 12px;
+      background: #ff7aa2;
+      border: none;
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+
+    .product-card button:hover {
+      background: #ff5c8d;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 10px;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #ff7aa2;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Shimmer Bracelets</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Handmade Bracelets, Crafted With Care</h2>
+    <p>Discover unique, customizable bracelets that tell your story—perfect for gifts, keepsakes, and everyday style.</p>
+    <button onclick="window.location.href='shop.html'">Browse Collection</button>
+  </section>
+
+  <section class="products">
+    <div class="product-card">
+      <h3>Rose Quartz Charm</h3>
+      <p>Soft pink beads with a delicate heart charm.</p>
+      <p class="price">£18.00</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <h3>Ocean Breeze</h3>
+      <p>Turquoise stones inspired by sea and sky.</p>
+      <p class="price">£22.00</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <h3>Midnight Glow</h3>
+      <p>Black onyx beads with gold accents.</p>
+      <p class="price">£20.00</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <h3>Custom Name Bracelet</h3>
+      <p>Personalised with your chosen name or word.</p>
+      <p class="price">From £25.00</p>
+      <button>Customize</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Shimmer Bracelets · All rights reserved.</p>
+    <p>
+      <a href="contact.html">Contact</a> |
+      <a href="about.html">Our Story</a>
+    </p>
+  </footer>
+</body>
+</html>
